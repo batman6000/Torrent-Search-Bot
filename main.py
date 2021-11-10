@@ -11,15 +11,15 @@ from tool import SearchYTS, SearchAnime, Search1337x, SearchPirateBay
 
 TorrentBot = Client(session_name=Config.SESSION_NAME, api_id=Config.API_ID, api_hash=Config.API_HASH, bot_token=Config.BOT_TOKEN)
 DEFAULT_SEARCH_MARKUP = [
-                    [InlineKeyboardButton("Search YTS", switch_inline_query_current_chat="!yts "),
+                    [InlineKeyboardButton("🔍Search YTS🔎", switch_inline_query_current_chat="!yts "),
                      InlineKeyboardButton("Go Inline", switch_inline_query="!yts ")],
-                    [InlineKeyboardButton("Search ThePirateBay", switch_inline_query_current_chat="!pb "),
+                    [InlineKeyboardButton("🔍Search ThePirateBay🔎", switch_inline_query_current_chat="!pb "),
                      InlineKeyboardButton("Go Inline", switch_inline_query="!pb ")],
-                    [InlineKeyboardButton("Search 1337x", switch_inline_query_current_chat=""),
+                    [InlineKeyboardButton("🔍Search 1337x🔎", switch_inline_query_current_chat=""),
                      InlineKeyboardButton("Go Inline", switch_inline_query="")],
-                    [InlineKeyboardButton("Search Anime", switch_inline_query_current_chat="!a "),
+                    [InlineKeyboardButton("🔍Search Anime🔎", switch_inline_query_current_chat="!a "),
                      InlineKeyboardButton("GO Inline", switch_inline_query_current_chat="!a ")],
-                    [InlineKeyboardButton("Developer: @Filmmirrorchat", url="https://t.me/Filmmirrorchat")]
+                    [InlineKeyboardButton("🌏Updates Channel🌏", url="https://t.me/MTSLUpdates")]
                 ]
 
 
